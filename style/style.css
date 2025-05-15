@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  font-family: cursive, sans-serif;
+  line-height: 2;
+  background-color: #f4f4f4;
+  padding-top: 80px; /* Espaço para o menu fixo */
+}
+
+/* Estilo do cabeçalho e menu de navegação */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #035729;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #035729;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  color: #fff;
+  max-width: 300px; /* Largura máxima do formulário */
+  margin: 50px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+  padding: 20px; /* Espaçamento interno */
+  background-color: #035729; /* Cor de fundo*/
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  width: 30%;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: 200px; /* Altura fixa para igualar tamanho */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+  display: block;
+}
+
+.image-box p {
+  padding: 10px;
+  text-align: center;
+  color: #555;
+}
+
+.image-box2 {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-box2 img {
+  width: 100%;
+  height: 500px; /* Altura fixa para igualar tamanho */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+  display: block;
+}
+
+.image-box2 p {
+  padding: 10px;
+  text-align: center;
+  color: #555;
+}
+.image-container2 {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#voltar {
+  /* Usa # para selecionar o ID "voltar" */
+  max-width: 40px; /* tamanho do botão */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container2 {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
